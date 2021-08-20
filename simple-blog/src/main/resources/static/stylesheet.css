@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Le_Penseur_in_the_Jardin_du_Mus%C3%A9e_Rodin%2C_Paris_14_June_2015.jpg/1200px-Le_Penseur_in_the_Jardin_du_Mus%C3%A9e_Rodin%2C_Paris_14_June_2015.jpg")
+}
+nav li{
+	display : inline;
+	border-width: 1px 1px 0 1px;
+    margin: 0 5px 0 0;
+	border: solid;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0px;
+}
+
+nav li a{
+	padding : 0 10px;
+}
+
+nav li {
+			float: right;
+			border: 1px solid #bbb;
+			border-bottom-width: 0;
+			margin: 0;
+		}
+		
+#section{
+	  text-align: center;  margin-left: auto;
+   	  margin-right: auto;
+      width: 40em;
+	  background-color: white;
+}

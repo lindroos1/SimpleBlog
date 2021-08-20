@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Edit article</title>
+</head>
+<body>
+	<form>
+		<div class="form-group">
+			<label for="exampleFormControlTextarea1" th:text="${post.body}"></label>
+			<textarea class="form-control" id="exampleFormControlTextarea1"
+				rows="3"></textarea>
+		</div>
+	</form>
+</body>
+</html>
