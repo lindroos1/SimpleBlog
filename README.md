@@ -6,15 +6,15 @@
 
 
 ## General info
-This is simple monolithic blog project. A new user can be registered. If the user has administrator role, several functionalities become  available:
+This is simple monolithic blog project. A new user can be registered, or login. If the user has administrator role, several functionalities become  available:
 * Create an article
 * Delete an article
 * Edit an article
 
-Every user can:
+Every user can, even if not registered:
 * Search for any article
 * Read any article
-even if not registered.
+
 	
 
 ![alt text](https://imgur.com/aRqU5Hh.png)
